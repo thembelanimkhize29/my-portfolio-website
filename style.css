@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;700&display=swap');
+#foot{
+    text-align: center;
+    padding: 3px;
+  
+  }
+
+h2{
+    text-align: center;
+}
+
+.header{
+  margin-top: 0px;
+  width: 100%;
+  height: calc(100vh - 60px);
+  background: url(img/background.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 80px;
+  line-height: 60px;
+  margin-bottom: 80px;
+}
+
+.heading .small{
+  display: block;
+  font-size: 40px;
+  font-style: italic;
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+}
+
+.heading .no-fill{
+  font-style: italic;
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+}
+.about .about-content{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.about .about-content .left img{
+  object-fit: cover;
+  border-radius: 6px;
+}
+.about .about-content .left{
+  width: 45%;
+}
+.about .about-content .right{
+  width: 55%;
+}  
+.about .about-content .right .text{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: 'ubuntu', sans-serif;
+}
+.about .about-content .right p{
+  text-align: justify;
+}
+/*contact section style
+.contact .title::after{
+  content:"get in touch";
+}*/
+.contact{
+  text-align: center;
+}
